@@ -1,0 +1,25 @@
+{
+  "name": "astro-react-cloudflare",
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "astro": "astro",
+    "build": "astro build",
+    "dev": "astro dev",
+    "preview": "astro preview",
+    "start": "astro dev",
+    "cleanBuild": "rm -rf dist/ && astro build"
+  },
+  "dependencies": {
+    "astro": "^3.2.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@astrojs/cloudflare": "^7.5.1",
+    "@astrojs/react": "^3.0.3",
+    "wrangler": "^3.11.0",
+    "@types/react": "^18.2.21",
+    "@types/react-dom": "^18.2.7"
+  }
+}
